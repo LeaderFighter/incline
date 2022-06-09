@@ -30,9 +30,9 @@
       "value": """CALLISTO KI MAA KA BHOSDA CHUD KE FARAR CALLISTO KI RANDI MAA CHUDTE CHUDTE BHAAGG GYII\n@aryanking047 MIRINDA KE MAA KE CHOOT ME PEPSI MIRINDA KI BEHEN SEXY RANDI JO SABSE CHUDWATI HAI\nCKD KE MAA KA BHOSDA\nCKD KE PAPA #GANGSTER AND #HIMANSHU"""
     }
   },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
     ]
 }
