@@ -1,0 +1,38 @@
+{
+  "name": "SPAM BOT",
+  "description": "Spam Bot To Spam Messages",
+  "logo": "https://telegra.ph/file/75229ba894ef780332815.jpg",
+    "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/H1M4N5HU0P/",
+  "website": "https://github.com/H1M4N5HU0P/",
+  "success_url": "https://t.me/MafiaBot_Support",
+  "env": {
+    "STRING_SESSION": {
+      "description": "Get this value by running https://repl.it/@H1M4N5HU0P/MAFIABOT#main.py ",
+      "value": ""
+    },
+    "COUNT": {
+      "description": "ENTER HOW MANY MESSAGES YOU WANT TO SEND",
+      "value": "99999"
+    },
+    "CHATID": {
+      "description": "ENTER CHAT ID WHERE YOU WANT TO SPAM, MAKE SURE YOU PUTTED CHAT ID  WITH -100",
+      "value": "-1001494119552"
+    },
+    "MESSAGE": {
+      "description": "ENTER YOU'RE MESSAGE WHICH YOU WANT TO SPAM",
+      "value": """CALLISTO KI MAA KA BHOSDA CHUD KE FARAR CALLISTO KI RANDI MAA CHUDTE CHUDTE BHAAGG GYII\n@aryanking047 MIRINDA KE MAA KE CHOOT ME PEPSI MIRINDA KI BEHEN SEXY RANDI JO SABSE CHUDWATI HAI\nCKD KE MAA KA BHOSDA\nCKD KE PAPA #GANGSTER AND #HIMANSHU"""
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
