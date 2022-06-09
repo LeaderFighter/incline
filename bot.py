@@ -26,14 +26,14 @@ API_ID = 2184829
 
 API_HASH = "6930b92388baabff4cb4a1d377085035"
 
-
+CHAT = f"-100{CHATID}"
 async def main():
     async with TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH) as bot:
         print("Spam Started Successfully!!!")
         try:
             for i in range(int(COUNT)):
                 try:
-                    await bot.send_message(int(CHATID), MESSAGE)
+                    await bot.send_message(int(CHAT), MESSAGE)
                 except Exception as e:
                     print(e)
             print("Spam Succefully Executed!!!")
